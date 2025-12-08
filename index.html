@@ -1,0 +1,2208 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+  <meta charset="UTF-8" />
+  <title>Tamil Insta Notes Songs – A to Z</title>
+ <link rel="icon" type="image/png" href="ChatGPT Image Dec 8, 2025, 09_09_36 PM.png">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&family=Poppins:wght@400;600;700&display=swap');
+
+ /* GLOBAL RESET + FONT */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+}
+/* pop animation */
+/* pop animation */
+@keyframes popSong {
+  0%   { transform: scale(1); }
+  20%  { transform: scale(1.15); }
+  40%  { transform: scale(1.05); }
+  60%  { transform: scale(1.12); }
+  80%  { transform: scale(1.02); }
+  100% { transform: scale(1); }
+}
+
+.song-pop {
+  animation: popSong 0.8s ease-out;
+  background: rgba(34, 197, 94, 0.15);
+  border-radius: 6px;
+  transition: background 0.3s ease;
+}
+
+
+.song-pop {
+  animation: popSong 0.45s ease-out;
+  background: rgba(34, 197, 94, 0.15);
+  border-radius: 6px;
+}
+
+.mode-toggle {
+  border-radius: 999px;
+  border: 1px solid rgba(34, 197, 94, 0.6);
+  background: rgba(15, 23, 42, 0.96);
+  color: #bbf7d0;
+  font-size: 0.9rem;
+  padding: 6px 12px;
+  cursor: pointer;
+  margin-left: 0.5rem;
+  transition: 0.2s ease;
+}
+.footer-credit {
+  margin-top: 0.25rem;
+  opacity: 0.85;
+}
+
+.mode-toggle:hover {
+  background: #22c55e;
+  color: #020617;
+  box-shadow: 0 0 12px rgba(34, 197, 94, 0.8);
+}
+
+/* SEARCH BAR */
+.search-container {
+  margin: 1.2rem 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#songSearch {
+  width: 100%;
+  max-width: 420px;
+  padding: 0.7rem 1rem;
+  font-size: 1rem;
+  color: #bbf7d0;
+  background: rgba(15, 23, 42, 0.85);
+  border: 1px solid rgba(34, 197, 94, 0.5);
+  border-radius: 12px;
+  outline: none;
+  transition: 0.2s ease;
+  backdrop-filter: blur(6px);
+}
+
+#songSearch::placeholder {
+  color: #84cc16;
+  opacity: 0.7;
+}
+
+#songSearch:focus {
+  border-color: #22c55e;
+  box-shadow: 0 0 12px rgba(34, 197, 94, 0.7);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* BODY – BLACK + NEON GREEN GLOW */
+body {
+  background:
+    radial-gradient(circle at 15% 0%, rgba(34, 197, 94, 0.18), transparent 55%),
+    radial-gradient(circle at 85% 100%, rgba(34, 197, 94, 0.22), transparent 60%),
+    #020617; /* near-black */
+  color: #e5e7eb;
+  line-height: 1.6;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* HEADER */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: rgba(2, 6, 23, 0.94);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(34, 197, 94, 0.65);
+}
+
+.nav {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0.9rem 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  letter-spacing: 0.16em;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  color: #bbf7d0;
+}
+
+.logo-circle {
+  width: 22px;
+  height: 22px;
+  border-radius: 999px;
+  background: radial-gradient(circle at 30% 20%, #4ade80, #16a34a);
+  box-shadow: 0 0 18px rgba(34, 197, 94, 0.9);
+}
+.copy-btn {
+  padding: 4px 10px;
+  font-size: 0.75rem;
+  border: 1px solid #22c55e;
+  background: transparent;
+  color: #22c55e;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.copy-btn:hover {
+  background: #22c55e;
+  color: #000;
+  box-shadow: 0 0 12px #22c55e;
+}
+
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  font-size: 0.9rem;
+  justify-content: flex-end;
+}
+
+.nav-links a {
+  padding-bottom: 0.12rem;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.15s ease, color 0.15s ease, transform 0.1s ease;
+  color: #e5e7eb;
+}
+
+.nav-links a:hover {
+  border-color: #22c55e;
+  color: #bbf7d0;
+  transform: translateY(-1px);
+}
+
+/* LAYOUT */
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2.1rem 1.2rem 3rem;
+}
+
+section {
+  padding: 2.3rem 0;
+  border-bottom: 1px solid rgba(15, 23, 42, 0.9);
+}
+
+section:last-of-type {
+  border-bottom: none;
+}
+
+/* TAG / HEADINGS / HERO */
+.tag {
+  display: inline-block;
+  padding: 0.14rem 0.7rem;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  border-radius: 999px;
+  border: 1px solid rgba(34, 197, 94, 0.6);
+  color: #bbf7d0;
+  background: rgba(15, 23, 42, 0.94);
+  margin-bottom: 0.7rem;
+}
+
+h1 {
+  font-size: clamp(2.2rem, 4vw, 2.9rem);
+  margin-bottom: 0.6rem;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+}
+
+h3 {
+  font-size: 1.05rem;
+  margin-bottom: 0.25rem;
+}
+h1, h2, h3 {
+  font-family: "Orbitron", sans-serif;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+}
+
+
+.accent {
+  color: #22c55e;
+}
+
+.muted {
+  color: #9ca3af;
+  font-size: 0.95rem;
+}
+
+.hero-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) minmax(0, 1.1fr);
+  gap: 2rem;
+  align-items: center;
+}
+
+.pill-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-top: 0.8rem;
+}
+
+.pill {
+  padding: 0.2rem 0.7rem;
+  border-radius: 999px;
+  border: 1px solid rgba(34, 197, 94, 0.55);
+  font-size: 0.8rem;
+  color: #e5e7eb;
+  white-space: nowrap;
+  background: rgba(15, 23, 42, 0.92);
+}
+.alpha-index {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 12px 18px;
+  background: rgba(0, 255, 120, 0.08);
+  border: 1px solid rgba(0, 255, 120, 0.25);
+  border-radius: 11000px; /* makes the whole bar cylindrical */
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 18px rgba(0, 255, 120, 0.25);
+}
+
+.info-note {
+  margin-top: 0.9rem;
+  font-size: 0.82rem;
+  color: #d1fae5;
+  border-left: 3px solid rgba(34, 197, 94, 0.9);
+  padding-left: 0.65rem;
+}
+
+/* CARDS – BLACK GLASS + NEON BORDER */
+.card {
+  border-radius: 1rem;
+  padding: 1rem 1rem;
+  border: 1px solid rgba(34, 197, 94, 0.55);
+  background:
+    radial-gradient(circle at top left, rgba(34, 197, 94, 0.16), transparent 55%),
+    rgba(15, 23, 42, 0.96);
+  box-shadow: 0 18px 36px rgba(0, 0, 0, 0.9);
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 22px 44px rgba(22, 163, 74, 0.45);
+  border-color: rgba(74, 222, 128, 0.95);
+}
+
+.section-sub {
+  font-size: 0.87rem;
+  color: #9ca3af;
+  margin-bottom: 1rem;
+}
+
+/* A–Z INDEX */
+.alpha-index {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0.9rem 0 1.2rem;
+}
+
+.alpha-index a {
+  padding: 0.2rem 0.65rem;
+  border-radius: 999px;
+  border: 1px solid rgba(34, 197, 94, 0.55);
+  font-size: 0.8rem;
+  color: #e5e7eb;
+  background: rgba(15, 23, 42, 0.96);
+  transition: background 0.15s ease, transform 0.1s ease, border-color 0.15s ease;
+}
+@keyframes pressPop {
+  0% { transform: scale(1); }
+  30% { transform: scale(0.8); }
+  60% { transform: scale(1.15); }
+  100% { transform: scale(1); }
+}
+.alpha-index a {
+  padding: 6px 12px;
+  border-radius: 50px;
+  background: rgba(0, 255, 150, 0.12);
+  border: 1px solid rgba(0, 255, 150, 0.4);
+  color: #d4ffe9;
+  font-weight: 600;
+  backdrop-filter: blur(6px);
+  transition: 0.25s ease;
+}
+
+.alpha-index a:hover,
+.alpha-index a.clicked {
+  background: rgba(0, 255, 150, 0.3);
+  border-color: rgba(0, 255, 150, 0.9);
+  box-shadow: 0 0 12px rgba(0, 255, 150, 0.8);
+  transform: scale(1.12);
+}
+
+
+/* LETTER GROUPS */
+.letter-group {
+  margin-bottom: 1.4rem;
+}
+
+.letter-heading {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #bbf7d0;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin-bottom: 0.4rem;
+}
+
+.letter-tag {
+  width: 22px;
+  height: 22px;
+  border-radius: 999px;
+  border: 1px solid rgba(34, 197, 94, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  color: #bbf7d0;
+  background: rgba(15, 23, 42, 0.98);
+}
+
+/* SONG LIST + DOTS */
+.song-list {
+  list-style: none;
+  padding-left: 0.4rem;
+}
+
+.song-list li {
+  margin-bottom: 0.18rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.4rem;
+  font-size: 0.88rem;
+  color: #e5e7eb;
+  position: relative;
+}
+/* SONG HOVER EFFECT + LAYOUT */
+.song-list li {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.88rem;
+  color: #e5e7eb;
+  transition: background 0.18s ease;
+  border-radius: 6px;
+  padding: 2px 4px;
+}
+
+.song-list li:hover {
+  background: rgba(15, 23, 42, 0.8); /* subtle dark highlight behind song */
+}
+
+/* Neon green dot before each song */
+.song-list li::before {
+  content: "•";
+  font-size: 0.9rem;
+  color: #22c55e;
+  line-height: 1.4;
+  margin-right: 0.1rem;
+}
+
+/* TEXT ONLY */
+/* SONG LIST + DOT */
+.song-list {
+  list-style: none;
+  padding-left: 0.4rem;
+}
+
+.song-list li {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.9rem;
+  color: #e5e7eb;
+  padding: 2px 0;
+}
+
+/* remove full-width hover background */
+.song-list li:hover {
+  background: transparent;
+}
+
+/* Neon green dot before each song */
+.song-list li::before {
+  content: "•";
+  font-size: 0.9rem;
+  color: #22c55e;
+  line-height: 1.4;
+  margin-right: 0.1rem;
+}
+
+/* TEXT ONLY */
+.song-text {
+  position: relative;
+  display: inline-block;
+  width: auto;
+  max-width: max-content;
+  transition: transform 0.18s ease, color 0.18s ease, text-shadow 0.18s ease;
+}
+
+
+
+.song-list p {
+  margin: 0;
+}
+
+.song-list a {
+  font-size: 0.88rem;
+  border-bottom: 1px dashed transparent;
+  padding-bottom: 1px;
+}
+
+.song-list a:hover {
+  border-color: rgba(190, 242, 210, 0.85);
+}
+
+.hint {
+  font-size: 0.75rem;
+  color: #9ca3af;
+  margin-top: 0.15rem;
+}
+
+/* LYRICS / CAPTION BLOCKS */
+.lyrics-section {
+  margin-top: 1.8rem;
+}
+
+.lyrics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.4rem;
+  margin-top: 1rem;
+}
+
+.song-meta {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: #6ee7b7;
+  margin-bottom: 0.25rem;
+}
+
+.song-info {
+  font-size: 0.85rem;
+  color: #d1d5db;
+  margin-top: 0.1rem;
+  margin-bottom: 0.25rem;
+}
+
+.lyrics-wrapper {
+  margin-top: 0.4rem;
+  border-radius: 0.9rem;
+  border: 1px dashed rgba(34, 197, 94, 0.7);
+  padding: 0.7rem 0.8rem;
+  background: rgba(15, 23, 42, 0.96);
+}
+
+.lyrics-title {
+  font-size: 0.9rem;
+  margin-bottom: 0.25rem;
+  color: #e5e7eb;
+}
+
+.lyrics-note {
+  font-size: 0.8rem;
+  color: #9ca3af;
+  margin-bottom: 0.3rem;
+}
+
+.lyrics-box {
+  border-radius: 0.7rem;
+  padding: 0.7rem 0.75rem;
+  background: #020617;
+  border: 1px solid rgba(34, 197, 94, 0.55);
+  font-size: 0.9rem;
+  color: #f9fafb;
+  white-space: pre-line;
+  min-height: 4.2rem;
+}
+
+.lyrics-placeholder {
+  font-size: 0.86rem;
+  color: #6b7280;
+  font-style: italic;
+}
+
+/* HOW TO / ABOUT */
+.two-col {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+  gap: 1.4rem;
+  margin-top: 1.1rem;
+}
+
+.info-card {
+  border-radius: 0.9rem;
+  padding: 1rem 1rem;
+  border: 1px solid rgba(34, 197, 94, 0.5);
+  background: rgba(15, 23, 42, 0.98);
+  font-size: 0.88rem;
+  color: #e5e7eb;
+}
+
+.info-card ul {
+  margin-left: 1.2rem;
+  margin-top: 0.4rem;
+}
+
+.info-card li {
+  margin-bottom: 0.25rem;
+}
+
+/* FOOTER */
+footer {
+  border-top: 1px solid rgba(15, 23, 42, 1);
+  background: #020617;
+  padding: 1.4rem 1.2rem 1.6rem;
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: #9ca3af;
+}
+
+.footer-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.footer-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.7rem;
+  margin-bottom: 0.45rem;
+  font-size: 0.8rem;
+}
+
+.footer-link {
+  border-bottom: 1px dashed transparent;
+  padding-bottom: 1px;
+}
+
+.footer-link:hover {
+  border-color: #22c55e;
+}
+
+/* RESPONSIVE */
+@media (max-width: 880px) {
+  .hero-layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  main {
+    padding-inline: 1rem;
+  }
+
+  .alpha-index {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 640px) {
+  .nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.6rem;
+  }
+
+  .nav-links {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    row-gap: 0.4rem;
+  }
+
+  .mode-toggle {
+    align-self: flex-end;
+  }
+
+  .alpha-index a {
+    padding: 6px 9px;
+    font-size: 0.78rem;
+  }
+
+  .song-list li {
+    font-size: 0.9rem;
+  }
+
+  #topBtn {
+    bottom: 16px;
+    right: 16px;
+    padding: 10px 13px;
+    font-size: 13px;
+  }
+}
+
+/* LOADER OVERLAY */
+#loader-overlay {
+  position: fixed;
+  inset: 0;
+  background: #020617;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  transition: opacity 0.4s ease;
+}
+
+#loader-overlay.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.loader {
+  width: 42px;
+  height: 42px;
+  border-radius: 999px;
+  border: 3px solid rgba(34, 197, 94, 0.2);
+  border-top-color: #22c55e;
+  animation: spin 0.7s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* SEARCH BAR + SUGGESTIONS */
+.search-container {
+  margin: 1rem 0 0.6rem;
+  position: relative;
+  max-width: 420px;
+}
+
+#songSearch {
+  width: 100%;
+  padding: 0.65rem 0.9rem;
+  font-size: 0.95rem;
+  color: #bbf7d0;
+  background: rgba(15, 23, 42, 0.92);
+  border: 1px solid rgba(34, 197, 94, 0.6);
+  border-radius: 10px;
+  outline: none;
+  backdrop-filter: blur(6px);
+  transition: 0.2s ease;
+}
+
+#songSearch::placeholder {
+  color: #6b7280;
+}
+
+#songSearch:focus {
+  border-color: #22c55e;
+  box-shadow: 0 0 12px rgba(34, 197, 94, 0.7);
+}
+
+/* suggestion dropdown */
+.search-suggestions {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  margin-top: 0.25rem;
+  background: rgba(15, 23, 42, 0.98);
+  border: 1px solid rgba(34, 197, 94, 0.5);
+  border-radius: 0.6rem;
+  max-height: 220px;
+  overflow-y: auto;
+  font-size: 0.85rem;
+  display: none;
+  z-index: 20;
+}
+
+.search-suggestions.visible {
+  display: block;
+}
+
+.search-suggestions div {
+  padding: 0.45rem 0.7rem;
+  cursor: pointer;
+}
+
+.search-suggestions div:hover {
+  background: rgba(34, 197, 94, 0.12);
+}
+
+/* STICKY A–Z BAR */
+.alpha-index {
+  position: sticky;
+  top: 64px; /* sits below header */
+  z-index: 8;
+  padding: 0.45rem 0 0.4rem;
+  background: linear-gradient(to right, rgba(2, 6, 23, 0.96), rgba(2, 6, 23, 0.96));
+}
+
+/* COLLAPSIBLE LETTER GROUPS */
+.letter-group {
+  margin-bottom: 1.4rem;
+  border-radius: 0.6rem;
+  padding: 0.4rem 0.3rem 0.4rem 0;
+}
+
+.letter-heading {
+  cursor: pointer;
+  position: relative;
+  padding-right: 1.3rem;
+}
+
+/* + / - icon on right */
+.letter-heading::after {
+  content: "−";
+  position: absolute;
+  right: 0;
+  font-size: 1rem;
+  color: #9ca3af;
+}
+#topBtn {
+  position: fixed;
+  bottom: 22px;
+  right: 22px;
+  padding: 12px 16px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #ffffff;
+  background: linear-gradient(135deg, #00ff9f, #00c774);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 0 14px rgba(0, 255, 150, 0.6);
+  backdrop-filter: blur(8px);
+  transition: 0.25s ease;
+  z-index: 999;
+}
+#topBtn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background: #16a34a;
+  padding: 14px 20px;
+  border-radius: 50px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+@media (max-width: 768px) {
+  #topBtn {
+    padding: 10px 15px;
+    bottom: 20px;
+    right: 20px;
+    font-size: 14px;
+    transform: scale(0.9);
+  }
+}
+@media (max-width: 480px) {
+  #topBtn {
+    padding: 8px 12px;
+    bottom: 15px;
+    right: 15px;
+    font-size: 12px;
+    transform: scale(0.8);
+  }
+}
+@media (max-width: 360px) {
+  #topBtn {
+    padding: 6px 10px;
+    bottom: 12px;
+    right: 12px;
+    font-size: 11px;
+    transform: scale(0.7);
+  }
+}
+#topBtn:hover {
+  transform: scale(1.12);
+  box-shadow: 0 0 20px rgba(0, 255, 150, 0.9);
+}
+
+#topBtn:active {
+  transform: scale(0.9);
+}
+
+/* when collapsed */
+.letter-group.collapsed .letter-heading::after {
+  content: "+";
+}
+
+.letter-group.collapsed .song-list {
+  display: none;
+}
+
+/* keep song li flex for copy buttons if you added them earlier */
+.song-list li {
+  display: flex;
+  align-items: center;
+}
+
+/* LIGHT MODE ------------------------------------------------ */
+body.light-mode {
+  background: #f3f4f6;
+  color: #0f172a;
+}
+
+body.light-mode header {
+  background: rgba(249, 250, 251, 0.96);
+  border-bottom-color: #22c55e;
+}
+
+body.light-mode .nav-links a {
+  color: #111827;
+}
+
+body.light-mode .tag {
+  background: #e5f9ec;
+  color: #065f46;
+  border-color: #22c55e;
+}
+
+body.light-mode .card {
+  background: #ffffff;
+  border-color: #d1d5db;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.15);
+}
+
+body.light-mode .alpha-index {
+  background: #e5f9ec;
+  border-color: #22c55e;
+  box-shadow: none;
+}
+
+body.light-mode .alpha-index a {
+  background: #ffffff;
+  color: #065f46;
+}
+
+body.light-mode .alpha-index a.clicked,
+body.light-mode .alpha-index a:hover {
+  background: #22c55e;
+  color: white;
+}
+
+body.light-mode .song-list li {
+  color: #111827;
+}
+
+body.light-mode .lyrics-wrapper {
+  background: #f9fafb;
+}
+
+body.light-mode footer {
+  background: #f3f4f6;
+  color: #4b5563;
+}
+.one{
+    position:relative;
+    top: 20px;
+    left: 100px;
+    right: 100px;
+    bottom:100px;
+}
+.two{
+  position:relative;
+    top: 15px;
+    left: 80px;
+    right: 100px;
+    bottom: 100px;  
+}
+.three{
+    position: relative;
+    top: 1px;
+    left:394px;
+    
+}
+@media (max-width: 768px){
+.three {
+      position: relative;
+      top: 1px;
+      left:228px;  /* was 860px → too large for phone */
+      right: auto;
+  }
+}
+@media (max-width: 482px){
+.three {
+      position: relative;
+      top: 1px;
+      left:100px;  /* was 860px → too large for phone */
+      right: auto;
+  }
+}
+@media (max-width: 350px){
+.three {
+      position: relative;
+      top: 1px;
+      left:19px;  /* was 860px → too large for phone */
+      right: auto;
+  }
+}
+  </style>
+</head>
+<body>
+    
+        
+  <!-- Loading overlay -->
+  <div id="loader-overlay">
+    <div class="loader"></div>
+  </div>
+
+  <header>
+    <nav class="nav">
+      <div class="brand">
+        <div class="logo-circle"></div>
+        <span>Tamil Insta Notes</span>
+      </div>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <p> | </p>
+        <a href="#songs">A–Z Songs</a>
+      </div>
+      <button id="modeToggle" class="mode-toggle">☾</button>
+
+    </nav>
+  </header>
+
+  <main>
+    <!-- HOME -->
+    <section id="home">
+      <div class="hero-layout">
+        <div>
+            <br>
+          <h1>
+            <span class="accent">Tamil Songs </span><br />
+            for Instagram Notes
+          </h1>
+          <p class="muted" style="margin-top:0.8rem;">
+            On this site you can find Tamil songs and one-line hooks perfect for your Instagram Notes – all sorted A–Z.
+          </p>
+          <div class="pill-row">
+            <span class="pill">Only Tamil Songs</span>
+            <span class="pill">Insta Notes Vibes</span>
+            <span class="pill">A–Z Order</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="songs">
+  <span class="tag">A–Z Songs</span>
+  <h2>Song List (A–Z)</h2>
+  <p class="section-sub">
+    Below is the alphabet list. Tap a letter to see songs for that letter.
+  </p>
+
+  <!-- SEARCH BAR --><center>
+  <div class="search-container">
+    
+    <input type="text" id="songSearch" placeholder="Search songs…">
+    <div id="searchSuggestions" class="search-suggestions">
+
+    </div>
+   
+  </div>
+</center>
+  <!-- Alphabet index -->
+  <div class="alpha-index">
+    <a href="#letter-a">A</a>
+    <a href="#letter-b">B</a>
+    <a href="#letter-c">C</a>
+    <a href="#letter-d">D</a>
+    <a href="#letter-e">E</a>
+    <a href="#letter-f">F</a>
+    <a href="#letter-g">G</a>
+    <a href="#letter-h">H</a>
+    <a href="#letter-i">I</a>
+    <a href="#letter-j">J</a>
+    <a href="#letter-k">K</a>
+    <a href="#letter-l">L</a>
+    <a href="#letter-m">M</a>
+    <a href="#letter-n">N</a>
+    <a href="#letter-o">O</a>
+    <a href="#letter-p">P</a>
+    <a href="#letter-q">Q</a>
+    <a href="#letter-r">R</a>
+    <a href="#letter-s">S</a>
+    <a href="#letter-t">T</a>
+    <a href="#letter-u">U</a>
+    <a href="#letter-v">V</a>
+    <a href="#letter-w">W</a>
+    <a href="#letter-x">X</a>
+    <a href="#letter-y">Y</a>
+    <a href="#letter-z">Z</a>
+  </div>
+
+<button id="topBtn">↑ Top</button>
+
+      <!-- LETTER GROUPS -->
+
+      <!-- A -->
+      <div class="letter-group" id="letter-a">
+        <div class="letter-heading">
+          <div class="letter-tag">A</div>
+          <span>Songs starting with A</span>
+        </div>
+        <ul class="song-list">
+          <li><p>Aadaludan Paadalai Kettu (குடியிருந்த கோயில்)</p></li>
+          <li><p>Aadatha Manamumundo (மன்னாதி மன்னன்)</p></li>
+          <li><p>Aada Vaanga (சக்ரவர்த்தி திருமகள்)</p></li>
+          <li><p>Aagaya Gangai (தர்மயுத்தம்)</p></li>
+          <li><p>Aagaya Pandhalile (பொன்னூஞ்சல்)</p></li>
+          <li><p>Aahaa Mella Nada (புதிய பறவை)</p></li>
+          <li><p>Aalaporaan Thamizhan (மெர்சல்)</p></li>
+          <li><p>Aalayamaniyin Osaiyai (பாலும் பழமும்)</p></li>
+          <li><p>Aanandha Yaazhai (தங்க மீன்கள்)</p></li>
+          <li><p>Aandaandu Kaalam (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Aaruyire (குரு)</p></li>
+          <li><p>Aaru Maname Aaru (ஆண்டவன் கட்டளை)</p></li>
+          <li><p>Aasai Aasai (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Aasai Nooru Vagai (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Aasaiye Alaipola (தாய் பிறந்தால் வழி பிறக்கும்)</p></li>
+          <li><p>Aathangara Marame (கிழக்குச் சீமையிலே)</p></li>
+          <li><p>Aathangara Orathil (யான்)</p></li>
+          <li><p>Aayiram Aayiram (அன்பழகன்)</p></li>
+          <li><p>Aayiram Malargale (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Aayiram Nilave Vaa (அலைகள் ஓய்வதில்லை)</p></li>
+          <li><p>Aayirathil Oruvan (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>ABC Nee Vaasi (ஒரு கைதியின் நாட்குறிப்பு)</p></li>
+          <li><p>Achcham Enbathu (மன்னாதி மன்னன்)</p></li>
+          <li><p>Adada Mazhaida (பையா)</p></li>
+          <li><p>Adhaaru Adhaaru (என்னை அறிந்தால்)</p></li>
+          <li><p>Adiye (கடல்)</p></li>
+          <li><p>Adiyae Kolluthey (வாரணம் ஆயிரம்)</p></li>
+          <li><p>Adhisaya Raagam (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Adho Andha Paravai (ஆயிரத்தில் ஒருவன்)</p></li>
+          <li><p>Alaipayuthey (அலைபாயுதே)</p></li>
+          <li><p>Amali Thumali (கோ)</p></li>
+          <li><p>Amma Appa (வேடிக்கை மனிதர்கள்)</p></li>
+          <li><p>Ammukuttiye (ஜெமினி கணேஷனும் சுருளி ராஜனும்)</p></li>
+          <li><p>Anbe Anbe (உயிரே)</p></li>
+          <li><p>Andhi Mazhai Pozhikaruthu (ராஜா பார்வை)</p></li>
+          <li><p>Andru Vanthathum (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Angalamma (தாயே கருமாரி)</p></li>
+          <li><p>Anjana Anjana (வந்தான் வென்றான்)</p></li>
+          <li><p>Appadi Podu (கில்லி)</p></li>
+          <li><p>Arabu Naadu (தொட்டால் பூ மலரும்)</p></li>
+          <li><p>Arima Arima (எந்திரன்)</p></li>
+          <li><p>Aruvaakkaaran (குட்டி புலி)</p></li>
+          <li><p>Aval (மனிதன்)</p></li>
+          <li><p>Ava Enna (வாரணம் ஆயிரம்)</p></li>
+          <li><p>Aye Mr. Minor! (காவியத்தலைவன்)</p></li>
+          <li><p>Ayyayo (ஆடுகளம்)</p></li>
+          <li><p>Azhagai Pookkuthe (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Azhagana Ratchasiye (முதல்வன்)</p></li>
+          <li><p>Azhagiya Laila (உல்லாசம்)</p></li>
+          <li><p>Azhagiya Theeye (மின்னலே)</p></li>
+          <li><p>Azhagiye (காற்று வெளியிடை)</p></li>
+          <li><p>Azhagu (4 ஜி)</p></li>
+          <li><p>Azhagu Kutti Chellam (சைவம்)</p></li>
+        </ul>
+      </div>
+
+      <!-- B -->
+      <div class="letter-group" id="letter-b">
+        <div class="letter-heading">
+          <div class="letter-tag">B</div>
+          <span>Songs starting with B</span>
+        </div>
+        <ul class="song-list">
+          <li><p>Baaga Baaga (யுவன் யுவதி)</p></li>
+          <li><p>Baaratha Boomi (சாதிக்கொரு நீதி)</p></li>
+          <li><p>Baara Siluvaiyinai Tholil Sumakkum (பக்தி பாடல்)</p></li>
+          <li><p>Baby Baby (Instrumental Version)</p></li>
+          <li><p>Bailarey (லிட்டில் ஜான்)</p></li>
+          <li><p>Balamurugan (முன்னை முழு முதலே)</p></li>
+          <li><p>Bambara Kannale (மணமகன் தேவை)</p></li>
+          <li><p>Bani Thani (பழைய இந்தி பாடல்)</p></li>
+          <li><p>Baratha Boomi (Saathikkoru Needhi)</p></li>
+          <li><p>Bayappadathe (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Bhagavane (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Bhagyada Lakshmi Baramma (Radio Recitals Vol 4)</p></li>
+          <li><p>Bharathi Kannamma (நினைத்தாலே இனிக்கும்)</p></li>
+          <li><p>Bhavani Vararunga Ayyan (Engum Ayyappane)</p></li>
+          <li><p>Bheegi Bheegi Raaton Mein (Ajanabee)</p></li>
+          <li><p>Bhoopalam (Melody Hits Of Ilayaraja)</p></li>
+          <li><p>Bhoopalam Isaikkum (தூறல் நின்னு போச்சு)</p></li>
+          <li><p>Bhoomiyil Maanida (அசோக் குமார்)</p></li>
+          <li><p>Bigilu Bigilu Bigiluma (பிகில்)</p></li>
+          <li><p>Boom Boom (Remix) (Freak Out Remix - Aadithyan)</p></li>
+          <li><p>Boom Boom Maattukkaaran (அதே கண்கள்)</p></li>
+          <li><p>Boy Friend Girl Friend (6 Candles)</p></li>
+          <li><p>Brindavanamum (மிஸ்ஸியம்மா)</p></li>
+          <li><p>Brother Ulagum (நிமிர்ந்து நில்)</p></li>
+          <li><p>Buddan Yesu (சந்திரோதயம்)</p></li>
+          <li><p>Buddhi Ulla Manitharellam (அன்னை)</p></li>
+          <li><p>Bad Boy (Party Hits - Tamil)</p></li>
+        </ul>
+      </div>
+
+      <!-- C -->
+      <div class="letter-group" id="letter-c">
+        <div class="letter-heading">
+          <div class="letter-tag">C</div>
+          <span>Songs starting with C</span>
+        </div>
+        <ul class="song-list">
+          <li><p>Chakku Chakku Vaththikuchi (அசுரன்)</p></li>
+          <li><p>Challamadi Marubadi (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Chandira Mandalathai (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Chandirane Suriyane Kartharukku (பக்தி பாடல்)</p></li>
+          <li><p>Chandrodayam Oru (சந்திரோதயம்)</p></li>
+          <li><p>Chella Kiligalam Palliyile (எங்க மாமா)</p></li>
+          <li><p>Chella Chella (காணல் நீர்)</p></li>
+          <li><p>Chellame (சில் ப்ரோ)</p></li>
+          <li><p>Chellamma (Sollu Sollu) (நட்பதிகாரம் - 79)</p></li>
+          <li><p>Chellatha (தாயே கருமாரி)</p></li>
+          <li><p>Chennai City Yegi Ye Ye (சென்னை சிட்டி ஏகி யே ஏ)</p></li>
+          <li><p>Chevvanthi Poo (16 வயதினிலே)</p></li>
+          <li><p>Chinna Chinna Chitu Kuruvi (சின்ன சின்ன சிட்டுக் குருவி நாங்கள் தானே)</p></li>
+          <li><p>Chinna Chinna Kannanukku (வாழ்க்கை படகு)</p></li>
+          <li><p>Chinna Chinna Koodu Katti (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Chinna Chinna Poove (உன்னருகே நான் இருந்தால்)</p></li>
+          <li><p>Chinna Chinna Veetu Velai (பாட்டாளி)</p></li>
+          <li><p>Chinna Kannan (கவிக்குயில்)</p></li>
+          <li><p>Chinna Machan (சார்லி சாப்ளின் 2)</p></li>
+          <li><p>Chinnanchiru Kannan (மகலட்சுமி)</p></li>
+          <li><p>Chinnapura Ondru (அன்பே சங்கீதா)</p></li>
+          <li><p>Chippiyirukkuthu (வறுமையின் நிறம் சிகப்பு)</p></li>
+          <li><p>Chithadai Kattikittu (Remix) (இதுதான் ரீமிக்ஸ் பழைய தமிழ் பாடல்கள்)</p></li>
+          <li><p>Chittukkuruvi Mutham (Remix) (இதுதான் ரீமிக்ஸ் பழைய தமிழ் பாடல்கள்)</p></li>
+          <li><p>Chuttum Vizhi (கண்டுகொண்டேன் கண்டுகொண்டேன்)</p></li>
+          <li><p>Ceylonu Silku Nila (டியூப்லைட்)</p></li>
+        </ul>
+      </div>
+
+      <!-- D -->
+      <div class="letter-group" id="letter-d">
+        <div class="letter-heading">
+          <div class="letter-tag">D</div>
+          <span>Songs starting with D</span>
+        </div>
+        <ul class="song-list">
+          <li><p>Daddy Daddy (மௌன கீதங்கள்)</p></li>
+          <li><p>Dagha Dhagavena (ஜெயமருதி)</p></li>
+          <li><p>Damaalu Dumeelu (மாஸ் லுக் டப்பா லுக்)</p></li>
+          <li><p>Dam Damare (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Dammare Damma (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Danga Danga (விஸ்வாசம்)</p></li>
+          <li><p>Darlingey (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Dating (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Deivam Irupathu (சரஸ்வதி சபதம்)</p></li>
+          <li><p>Deivam Thantha (அவள் ஒரு தொடர்கதை)</p></li>
+          <li><p>Deivame Deivame (தெய்வ மகன்)</p></li>
+          <li><p>Devadasum Naanum (விதி)</p></li>
+          <li><p>Devi Karumariamma (தாயே கருமாரி)</p></li>
+          <li><p>Devi Sridevi (தேவி)</p></li>
+          <li><p>Devuda Choodaiya (வேடிக்கை மனிதர்கள்)</p></li>
+          <li><p>Dhandiya (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Dharmam Thalai Kaakkum (தர்மம் தலை காக்கும்)</p></li>
+          <li><p>Dheenkodi Naatiya (எல்லாப்புகழும் இறைவனுக்கு)</p></li>
+          <li><p>Dheenkula Kannu (இறைவனிடம் கையேந்துங்கள்)</p></li>
+          <li><p>Dhesingu Raaja (டும் டும் டும்)</p></li>
+          <li><p>Dhikir (முஸ்லீம் பக்தி பாடல்கள்)</p></li>
+          <li><p>Dhim Dhinaktari (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Dhinam Dhinam (தீ பாப் ஆல்பம்)</p></li>
+          <li><p>Dikki Dikki Lona (பிரியாத வரம் வேண்டும்)</p></li>
+          <li><p>Dingi Dingi (நினைத்தாலே)</p></li>
+          <li><p>Doggy Style (ஹீரோ நம்ம) (நாய்கள் ஜாக்கிரதை)</p></li>
+          <li><p>Dole Dole (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Donga Donga (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Don't Worry Be Happy (நிமிர்ந்து நில்)</p></li>
+          <li><p>Dooranga (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Dukkum Dukkum (ரூபாய்)</p></li>
+          <li><p>Dum Dum Dum (டும் டும் டும்)</p></li>
+          <li><p>Dura Sei (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Dutuduu Dutuduu (Docomo song)</p></li>
+        </ul>
+      </div>
+
+      <!-- E -->
+      <div class="letter-group" id="letter-e">
+        <div class="letter-heading">
+          <div class="letter-tag">E</div>
+          <span>Songs starting with E</span>
+        </div>
+        <ul class="song-list">
+          <li><p>Eazhu Kadalkalum (Eazhu Kadalkalum)</p></li>
+          <li><p>Eechi Elumichi (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Elakkai Enna Vilai (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Elanthaari (மாவீரன் கிட்டு)</p></li>
+          <li><p>Emmai Ninaithu (Emmai Ninathu)</p></li>
+          <li><p>Em Manasiley (சீறிவரும் காளை)</p></li>
+          <li><p>Enakkoru Aasai (எதிரிகள் ஜாக்கிரதை)</p></li>
+          <li><p>Enakkum Idam (T M Sounderarajan - Devotional Songs - Vol.1)</p></li>
+          <li><p>Enamo Aedho (கோ)</p></li>
+          <li><p>Endrendrum Punnagai (அலைபாயுதே)</p></li>
+          <li><p>Enga Veetu Pillai (நாடோடி ராஜா)</p></li>
+          <li><p>Engal Manndhaney (பக்தி பாடல்)</p></li>
+          <li><p>Engal Thalaivan Pirabakaran (பக்தி பாடல்)</p></li>
+          <li><p>Enge Andha Vennila (வருஷமெல்லாம் வசந்தம்)</p></li>
+          <li><p>Engeyum Eppodhum (நினைத்தாலே இனிக்கும்)</p></li>
+          <li><p>Engeyum Kaadhal (எங்கேயும் காதல்)</p></li>
+          <li><p>Engey Nimmathi (புதிய பறவை)</p></li>
+          <li><p>En Iniya Pon Nilave (மூடுபனி)</p></li>
+          <li><p>Enjamaami (Enjoy Enjaami)</p></li>
+          <li><p>En Jeevan (அன்பர் இயேசு)</p></li>
+          <li><p>En Kanmani (சிட்டுக்குருவி)</p></li>
+          <li><p>Ennada Pollatha Vazhkai (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Ennai Kaanavillaiye (காதல் தேசம்)</p></li>
+          <li><p>Ennai Thottu Allikonda (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Ennai Thottu (பார் மகளே பார்)</p></li>
+          <li><p>Enna Nenacha Nee (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Enna Solla Pogirai (கண்டுகொண்டேன் கண்டுகொண்டேன்)</p></li>
+          <li><p>Enna Vilai Azhage (காதலர் தினம்)</p></li>
+          <li><p>Ennamo Yedho (கோ)</p></li>
+          <li><p>Enthan Pon Vanname (நான் வாழ வைப்பேன்)</p></li>
+          <li><p>Enthan Uyire (உன்னருகே நான் இருந்தால்)</p></li>
+          <li><p>Erikarai Poonkaatre (தூறல் நின்னு போச்சு)</p></li>
+          <li><p>Eri Malai Eppadi Porukkum (எரிமலை எப்படி பொறுக்கும்)</p></li>
+          <li><p>Ethanai Periya (ஆசை முகம்)</p></li>
+          <li><p>Ethirigal Paasaraiyai (பக்தி பாடல்)</p></li>
+          <li><p>Evano Oruvan (அலைபாயுதே)</p></li>
+        </ul>
+      </div>
+
+      <!-- F -->
+      <div class="letter-group" id="letter-f">
+        <div class="letter-heading">
+          <div class="letter-tag">F</div>
+          <span>Songs starting with F</span>
+        </div>
+        <ul class="song-list">
+          <li><p>Face Book (கண்ணா பின்னா)</p></li>
+          <li><p>Face Book (ஒவ்வொரு நண்பனும் தேவை மச்சான்)</p></li>
+          <li><p>Fafa Song (மாறீசன்)</p></li>
+          <li><p>Feeling High (இந்தி பாடல்)</p></li>
+         
+         
+          <li><p>Filhaal (இந்தி பாடல்)</p></li>
+          <li><p>Fire Song (கங்குவா)</p></li>
+          <li><p>Fire Song - Epic Rock Mix (Fire Song - Epic Rock Mix)</p></li>
+          <li><p>First Sight (First Sight)</p></li>
+          <li><p>First Time (மனதில் ஒரு மாற்றம்)</p></li>
+          <li><p>Five Star (Five Star)</p></li>
+          <li><p>Fishing (Folk Music Of Tamil Nadu)</p></li>
+          <li><p>Fishing (Tamil Non-Film Hits Vol-2)</p></li>
+          <li><p>Flute (Silsila)</p></li>
+          <li><p>Flute, Santoor, Sitar - Songs Of Sunrise (The Magic Of Indian Classical Music Sitar)</p></li>
+          <li><p>Fragrant Night (Confluence II)</p></li>
+          <li><p>Friendship Paattu (களத்தில் சந்திப்போம்)</p></li>
+          <li><p>French Music (பாரதி)</p></li>
+          <li><p>Fruad Fruad Padu Fruad (மனைவியே மனிதனின் மாணிக்கம்)</p></li>
+          <li><p>Fuke De Lanka Saari (Aradhana)</p></li>
+          <li><p>Fun Damaka (Fun Damaka - எனக்கு என்டே கிடையாது)</p></li>
+        </ul>
+      </div>
+
+      <!-- G -->
+      <div class="letter-group" id="letter-g">
+        <div class="letter-heading">
+          <div class="letter-tag">G</div>
+          <span>Songs starting with G</span>
+        </div>
+        <ul class="song-list">
+          <li><p>Gale Gale (தூள்)</p></li>
+          <li><p>Ganakaarar Paadam (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Geetha Sangeetha (அன்பே சங்கீதா)</p></li>
+          <li><p>Gita Verses (Tamil) (நிமிர்ந்து நில்)</p></li>
+          <li><p>Good Morning (பார்வை)</p></li>
+          <li><p>Gori Tera Gaon Bada Pyara (இந்தி பாடல்)</p></li>
+          <li><p>Gulmohar Malare (மஜ்னு)</p></li>
+          <li><p>Gum Zaare (கடவுள் இருக்கான் குமாரு)</p></li>
+          <li><p>Gusthi Song (குஸ்தி)</p></li>
+        </ul>
+      </div>
+
+      <!-- H -->
+      <div class="letter-group" id="letter-h">
+        <div class="letter-heading">
+          <div class="letter-tag">H</div>
+          <span>Songs starting with H</span>
+        </div>
+        <ul class="song-list">
+          <li><p>Ha Enna Nesam Avar Koorntha Paasam (கிறிஸ்தவ பாடல்)</p></li>
+          <li><p>Hai Hai Hai Vaasanai (வாசனை)</p></li>
+          <li><p>Haiyo Paththikkichchu (Rhythm)</p></li>
+          <li><p>Hara Hara Mahadevaki (Motta Shiva Ketta Shiva)</p></li>
+          <li><p>Hari Gori (Majunu)</p></li>
+          <li><p>Hasbi Rabbi Jaliallah (இஸ்லாமிய பாடல்)</p></li>
+          <li><p>Hello Doctor (Kaadhal Desam)</p></li>
+          <li><p>Hello Hello (Monishaa En Monalisa)</p></li>
+          <li><p>Hello Miss (Unnale Unnale)</p></li>
+          <li><p>Hello Miss Hello Miss (En Kadamai)</p></li>
+          <li><p>Hey Azhaghiye (Rekkai Mulaithen)</p></li>
+          <li><p>Hey Baby (Raja Rani)</p></li>
+          <li><p>Hey Kuchi Rakkamma (Bow Bow)</p></li>
+          <li><p>Hey Minnale (Amaran)</p></li>
+          <li><p>Hey Pathu Podi (Kadavul Irukaan Kumaru)</p></li>
+          <li><p>Hey Rama (Kadhalai Gauravikkum Neram)</p></li>
+          <li><p>Hey Siri (Eleven)</p></li>
+          <li><p>Ho Ho Ethanai Azhagu (Athey Kangal)</p></li>
+          <li><p>Hosanna (Vinnaithaandi Varuvaayaa)</p></li>
+          <li><p>Hukum – Thalaivar Alappara (Jailer)</p></li>
+          <li><p>Human Ethics - Theme Music (Maaveeran Kittu)</p></li>
+          <li><p>Humma Humma (Bombay)</p></li>
+        </ul>
+      </div>
+
+      <!-- I -->
+      <div class="letter-group" id="letter-i">
+        <div class="letter-heading">
+          <div class="letter-tag">I</div>
+          <span>Songs starting with I</span>
+        </div>
+        <ul class="song-list">
+          <li><p>I Feel Love (You Set My Heart On Fire)</p></li>
+          <li><p>I Am A Disco Dancer (Disco Dancer - இந்தி பாடல்)</p></li>
+          <li><p>I Am A Disco Dancer 2.0 (இசை ஆல்பம்)</p></li>
+          <li><p>I Want to Marry you Mama (சார்லி சாப்ளின் 2)</p></li>
+          <li><p>Idhazhil Kadhai Ezhuthum (உன்னால் முடியும் தம்பி)</p></li>
+          <li><p>Idho Idho En Nenjile (வட்டத்துக்குள் சதுரம்)</p></li>
+          <li><p>Idhu Enna Idhu Enna (இருக்கு ஆனா இல்ல)</p></li>
+          <li><p>Idhu Manmatha Maadham (பார்த்தாலே பரவசம்)</p></li>
+          <li><p>Idhu Oru Pon Maalai (நிழல்கள்)</p></li>
+          <li><p>Ilayaraja (Ninaithaley - இந்தி பாடல்)</p></li>
+          <li><p>Ilamai Ennum Poonkaatru (பகல் நிலவு)</p></li>
+          <li><p>In Ankhon Ki Masti (Umrao Jaan - இந்தி பாடல்)</p></li>
+          <li><p>Inayae (தடம்)</p></li>
+          <li><p>Inbam Pongum Vennila (Remix) (ஆம்பள)</p></li>
+          <li><p>Injarango (தெனாலிராமன்)</p></li>
+          <li><p>Intha Aramba Naal Thottu (Enakkul Oruvan)</p></li>
+          <li><p>Iravum Pagalum (பில்லா)</p></li>
+          <li><p>Iragai Pole (நான் மகான் அல்ல)</p></li>
+          <li><p>Irumbilae Oru Irudhayam (எந்திரன்)</p></li>
+          <li><p>Ithuvarai (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Ivan Kaakhi Sattai (Motta Shiva Ketta Shiva)</p></li>
+          <li><p>Ivalugha Imsai Thanga Mudiyala (கலகலப்பு)</p></li>
+          <li><p>Izhavenil Idhu Vaigasi (காதல் ரோஜாவே)</p></li>
+        </ul>
+      </div>
+
+      <!-- J -->
+      <div class="letter-group" id="letter-j">
+        <div class="letter-heading">
+          <div class="letter-tag">J</div>
+          <span>Songs starting with J</span>
+        </div>
+        <ul class="song-list">
+          <li><p>Jaago (ராகுல் தீக்ஷித், ரிதா தியாகராஜன்)</p></li>
+          <li><p>Jal Jal Jal (பாசம்)</p></li>
+          <li><p>Jal Jal Jal (Remix) (ஹாட் பீட் ரீமிக்ஸ்)</p></li>
+          <li><p>Jambo Idhu Kadhal (ரிஷி)</p></li>
+          <li><p>Jambulingame Jadathara (காசேதான் கடவுளடா)</p></li>
+          <li><p>Jaragandi (Game Changer)</p></li>
+          <li><p>Jara Jara (ஆண்ட்ரியா ஜெரேமியா)</p></li>
+          <li><p>Jathigaigal Ellorum Kartharai (கிறிஸ்தவ பாடல்)</p></li>
+          <li><p>Jinguchaa (Thug Life)</p></li>
+          <li><p>Jil Jil Rani (குண சுந்தரி)</p></li>
+          <li><p>Jilukkadi Jilukkadi (எதிரிகள் ஜாக்கிரதை)</p></li>
+          <li><p>Jimba Jumba (கேம்)</p></li>
+          <li><p>Jin Jinukkan (ராஜபார்ட் ரங்கதுரை)</p></li>
+          <li><p>Jinga Bunga Theme Music (சார்லி சாப்ளின் 2)</p></li>
+          <li><p>Jodi Porutham (ஆண்பாவம் பொல்லாதது)</p></li>
+          <li><p>June Ponal (உன்னாலே உன்னாலே)</p></li>
+          <li><p>Jujubee (ஜெயிலர்)</p></li>
+        </ul>
+      </div>
+
+      <!-- K -->
+      <div class="letter-group" id="letter-k">
+        <div class="letter-heading">
+          <div class="letter-tag">K</div>
+          <span>Songs starting with K</span>
+        </div>
+        <ul class="song-list">
+          <li><p>Kaalaiyum Neeye Maalaiyum Neeye (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Kaalathuketha Oru Gana</p></li>
+          <li><p>Kaalam Oru Naal (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Kaatrin Mozhiye (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Kaattrae En Vaasal (Rhythm)</p></li>
+          <li><p>Kadal Alaiye Koncham Nillu</p></li>
+          <li><p>Kadal Oru (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Kadal Rojaave (காதல் ரோஜாவே)</p></li>
+          <li><p>Kadhal Ennum (காதலர் தினம்)</p></li>
+          <li><p>Kadhal Kadhal (காதல்)</p></li>
+          <li><p>Kadhal Sadugudu (அலைபாயுதே)</p></li>
+          <li><p>Kadhal Vaithu (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Kadhalikkum Pennin (காதல் கோட்டை)</p></li>
+          <li><p>Kadhale Kadhale (Monishaa En Monalisa)</p></li>
+          <li><p>Kadavul Irukaan Kumaru (கடவுள் இருக்கான் குமாரு)</p></li>
+          <li><p>Kaifi Khalil - Kahani Suno 2.0 (இந்தி/உருது பாடல்)</p></li>
+          <li><p>Kala Kala Virisi Jagaale (தெலுங்கு பாடல்)</p></li>
+          <li><p>Kalaavathi (தெலுங்கு பாடல்)</p></li>
+          <li><p>Kalavarame (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Kalise Kallalona (தெலுங்கு பாடல்)</p></li>
+          <li><p>Kalyanamaam Kalyanam (ஊருக்கு உழைப்பவன்)</p></li>
+          <li><p>Kalyana Maalai (புதிய மன்னர்கள்)</p></li>
+          <li><p>Kanave Kanave (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Kandaen Kandaen (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Kandukondain Kandukondain (கண்டுகொண்டேன் கண்டுகொண்டேன்)</p></li>
+          <li><p>Kangal Edho (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Kangal Irandal (சுப்ரமணியபுரம்)</p></li>
+          <li><p>Kangalal Kaidhu Sei (கண்களால் கைது செய்)</p></li>
+          <li><p>Kannai Nambathey (எனக்கு இன்னொரு பேர் இருக்கு)</p></li>
+          <li><p>Kannamoochchi Yenada (கண்டுகொண்டேன் கண்டுகொண்டேன்)</p></li>
+          <li><p>Kannazhaga (3)</p></li>
+          <li><p>Kanne Kalaimaane (மூன்றாம் பிறை)</p></li>
+          <li><p>Kanne Kaniye (ரகசிய போலீஸ் 115)</p></li>
+          <li><p>Kannukku Mai Azhagu</p></li>
+          <li><p>Kannum Kannum Kollaiyadithaal (கண்ணும் கண்ணும் கொள்ளையடித்தால்)</p></li>
+          <li><p>Karigalan (வேட்டைக்காரன்)</p></li>
+          <li><p>Karuppu Perazhaga (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Karuthavanlaam Galeejaam (வேலைக்காரன்)</p></li>
+          <li><p>Kasethan Kadavulappa (சக்கரம் / காசேதான் கடவுளடா)</p></li>
+          <li><p>Kaveri Jha (நகரம்)</p></li>
+          <li><p>Keka Mekka (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Kettu Kodi (Remix) (Hot Beat Remix)</p></li>
+          <li><p>Kikku Yekkele (தெலுங்கு பாடல்)</p></li>
+          <li><p>Kodana Kodi (சரோஜா)</p></li>
+          <li><p>Kola Kolaya Mundhirikka (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Kongu Naattu Maamaa (சிம்மாசனம்)</p></li>
+          <li><p>Konjum Mainaakkale (கண்டுகொண்டேன் கண்டுகொண்டேன்)</p></li>
+          <li><p>Kotthagundhe (தெலுங்கு பாடல்)</p></li>
+          <li><p>Kurumba (Father's Love) (டிக் டிக் டிக்)</p></li>
+        </ul>
+      </div>
+
+      <!-- L -->
+      <div class="letter-group" id="letter-l">
+        <div class="letter-heading">
+          <div class="letter-tag">L</div>
+          <span>Songs starting with L</span>
+        </div>
+        <ul class="song-list">
+          <li><p>Laddu Thinga Variya (ஒருவர் மீது ஒருவர் சாய்ந்து)</p></li>
+          <li><p>Laila Oh Laila (ஒரு காதல் வசந்தம்)</p></li>
+          <li><p>Lailalla Lailalla (பெற்ற மகனை விற்ற அன்னை)</p></li>
+          <li><p>Lakshiya Paadhai (ஊ ல ல லா)</p></li>
+          <li><p>Lala Lala Orunal Irunthen (Happy) (எதிரிகள் ஜாக்கிரதை)</p></li>
+          <li><p>Lala Lala Orunaal Irunthen (Sad) (எதிரிகள் ஜாக்கிரதை)</p></li>
+          <li><p>Lilly Malarukku (உலகம் சுற்றும் வாலிபன்)</p></li>
+          <li><p>Lisaa Lisaa (Lisaa)</p></li>
+          <li><p>Lo Lo Lo Local (மொட்ட சிவா கெட்ட சிவா)</p></li>
+          <li><p>Lol Lol Lol (பாச வலை)</p></li>
+          <li><p>Love Birds (அன்பே வா)</p></li>
+          <li><p>Love Check (பார்த்தாலே பரவசம்)</p></li>
+          <li><p>Love Check (Instrumental) (பார்த்தாலே பரவசம்)</p></li>
+          <li><p>Love Is Fine (தவப்புதல்வன்)</p></li>
+          <li><p>Love Me Baby (தோடுவானம்)</p></li>
+          <li><p>Love Pannu (சிவா மனசுல சக்தி)</p></li>
+          <li><p>Lullaby (Folk Music Of Tamil Nadu - நாட்டுப்புற இசை)</p></li>
+          <li><p>Lux Papa (ஏழுமலை)</p></li>
+        </ul>
+      </div>
+
+      <!-- M -->
+      <div class="letter-group" id="letter-m">
+        <div class="letter-heading">
+          <div class="letter-tag">M</div>
+          <span>Songs starting with M</span>
+        </div>
+        <ul class="song-list">
+          <li><p>Maasi Madham (Dharmadurai)</p></li>
+          <li><p>Maatu Maatu (Tamizhan)</p></li>
+          <li><p>Maaman Magale (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Maattu Thavani</p></li>
+          <li><p>Maddy Maddy (மின்னலே)</p></li>
+          <li><p>Madrasa Suthi (Pattukottai Prabhakar)</p></li>
+          <li><p>Main Na Bhoolunga (இந்தி பாடல்)</p></li>
+          <li><p>Maiyalum Koondhalum (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Malai Nindra Mannan (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Malarndhum Malaraadha (பாலும் பழமும்)</p></li>
+          <li><p>Malligai En Mannan (Dheergasumangali)</p></li>
+          <li><p>Malligai Poove (உன்னிடத்தில் என்னை கொடுத்தேன்)</p></li>
+          <li><p>Man Meedhu (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Maname Maname (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Manapparai Maadukatti (மக்களால் பெற்ற மகராசி)</p></li>
+          <li><p>Mandram Vantha Thendral (மௌன ராகம்)</p></li>
+          <li><p>Mangalyam Thanthunanena (காத்திருந்த கண்கள்)</p></li>
+          <li><p>Mani Osaiyum (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Mannavane Azhalagalam (Karpagam)</p></li>
+          <li><p>Mannarkudi Kalakalakka (சிவாபதிகாரம்)</p></li>
+          <li><p>Mannil Vantha Nilave (Nilave Malare)</p></li>
+          <li><p>Manpaadu (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Manpizhai Manpizhai (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Manushan Enbavan (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Manmatha Rasa (திருடா திருடி)</p></li>
+          <li><p>Manmadhan Ambu</p></li>
+          <li><p>Marbela Marlena (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Mariamma Engal Mariamma (பக்தி பாடல்)</p></li>
+          <li><p>Maruthamalai Mamaniye (பக்தி பாடல்)</p></li>
+          <li><p>Mascara (Salim)</p></li>
+          <li><p>Mass Ah Rough And Tough (மொட்ட சிவா கெட்ட சிவா)</p></li>
+          <li><p>Maya Bazaar (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Mayil Pola Ponnu Onnu (பாரதி)</p></li>
+          <li><p>Mazhai Kaalamum (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Mazhai Varum (மேகமே மேகமே)</p></li>
+          <li><p>Megame Megame (பலைவனச் சோலை)</p></li>
+          <li><p>Mella Mella En Kadhal (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Mellisaiye (Mr. Romeo)</p></li>
+          <li><p>Menaka (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Mere Khwabon Mein (இந்தி பாடல்)</p></li>
+          <li><p>Midnight Kalloori (கள்ள துப்பாக்கி)</p></li>
+          <li><p>Minna Minnum (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Minna Minni (Run)</p></li>
+          <li><p>Minnal Oru Kodi (வெற்றி கொடி கட்டு)</p></li>
+          <li><p>Moham Ennum (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Mohana Punnagai (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Monica (Monica - 2025)</p></li>
+          <li><p>Motta Paiyyan Paiyyan (மொட்ட சிவா கெட்ட சிவா)</p></li>
+          <li><p>Motta Shiva Ketta Shiva (மொட்ட சிவா கெட்ட சிவா)</p></li>
+          <li><p>Muder Kanave (மஜ்னு)</p></li>
+          <li><p>Muththa Mazhai (Thug Life)</p></li>
+          <li><p>Muthukkulikka (Remix) (பழைய தமிழ் படம்)</p></li>
+        </ul>
+      </div>
+
+      <!-- N -->
+      <div class="letter-group" id="letter-n">
+        <div class="letter-heading">
+          <div class="letter-tag">N</div>
+          <span>Songs starting with N</span>
+        </div>
+        <ul class="song-list">
+          <li><p>Na Kaara Gaana (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Naalai Indru (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Naanaaga Naanillai (தூங்காதே தம்பி தூங்காதே)</p></li>
+          <li><p>Naangale Naangale (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Naani Koni (மாற்றான்)</p></li>
+          <li><p>Naataaram (நாட்டுப்புறப் பாடல்)</p></li>
+          <li><p>Nee Kavithaigal (Nee Kavithaigal)</p></li>
+          <li><p>Nee Malar Pola (Ninaithale Inikkum)</p></li>
+          <li><p>Nee Mattum (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Nee Paartha (பச்சைக்கிளி முத்துச்சரம்)</p></li>
+          <li><p>Nee Sirithal (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Nee Thane Enthan Ponvasantham (பாலும் நிலவும்)</p></li>
+          <li><p>Nee Vandhu Ninrale (Manam Virumbuthe Unnai)</p></li>
+          <li><p>Neethane Neethane (Enakkul Oruvan)</p></li>
+          <li><p>Neer Kondu Vaa (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Nee Partha (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Neelavanam (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Neem Enbathu (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Nee Oru Kaadhal (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Nee Ullavarai (Ninaithale Inikkum)</p></li>
+          <li><p>Nee Varuvai Ena (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Neeye Unakku Endrum (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Nee Yenakku (வாய்ப்பே இல்ல ராஜா)</p></li>
+          <li><p>Nenjam Marappathillai (நெஞ்சம் மறப்பதில்லை)</p></li>
+          <li><p>Nenjukkul Peidhidum (வாரணம் ஆயிரம்)</p></li>
+          <li><p>Nenjukkul Vellum (வேலாயுதம்)</p></li>
+          <li><p>Neruppu Da (கபாலி)</p></li>
+          <li><p>Nila Kaigirathu (இந்திரா)</p></li>
+          <li><p>Nilaave Vaa (மௌன ராகம்)</p></li>
+          <li><p>Nilave Mugam Kaattu (Nilave Mugam Kaattu)</p></li>
+          <li><p>Ninachu Ninaichu (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Ninaippadhellam Nadandhu (நெஞ்சம் மறப்பதில்லை)</p></li>
+          <li><p>Niram Maratha (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Nitham Oru Vaanam (Nitham Oru Vaanam)</p></li>
+          <li><p>Nitham Nitham (பாண்டவர் பூமி)</p></li>
+        </ul>
+      </div>
+
+      <!-- O -->
+      <div class="letter-group" id="letter-o">
+        <div class="letter-heading">
+          <div class="letter-tag">O</div>
+          <span>Songs starting with O</span>
+        </div>
+        <ul class="song-list">
+          <li><p>Odi Odi Uzhaikkanum (நல்ல நேரம்)</p></li>
+          <li><p>Odathile Thanneeru (Karai Kadantha Kurathi)</p></li>
+          <li><p>Odum Megangalae (ஆயிரத்தில் ஒருவன்)</p></li>
+          <li><p>Oh Oh Enthan Baby (தென் நிலவு)</p></li>
+          <li><p>Oh Oh Kadihalan (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Oh Penne (O Penne - Single)</p></li>
+          <li><p>Oh Shala Oh Shala (காதல் சொல்ல வந்தேன்)</p></li>
+          <li><p>Oh Sunandha (முப்பொழுதும் உன் கற்பனைகள்)</p></li>
+          <li><p>Olam Kerddatha Alai Orasai (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Oliyum Oliyum (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Onnam Thiruppadi (பக்தி பாடல்)</p></li>
+          <li><p>Onnum Puriyala (கும்கி)</p></li>
+          <li><p>Onna Paathen Raasathi (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Ooh Mama (மின்னலே)</p></li>
+          <li><p>Ore Nyabagam (மின்னலே)</p></li>
+          <li><p>Ore Naal (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Orey Oru (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Oru Mani Adithaal Kanne (காலமெல்லாம் காதல் வாழ்க)</p></li>
+          <li><p>Oru Mara Nizhalil (Oru Mara Nizhalil - Mercury)</p></li>
+          <li><p>Oru Murai (முப்பொழுதும் உன் கற்பனைகள்)</p></li>
+          <li><p>Oru Naal Pothuma (திருவிளையாடல்)</p></li>
+          <li><p>Oru Naalil (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Oru Naalum Veennaakaathu (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Oru Nadhi (Samurai)</p></li>
+          <li><p>Oru Ooril (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Oru Poiyavathu (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Oru Sandhana Kaattukkulle (எல்லாமே என் ராசாதான்)</p></li>
+          <li><p>Oru Thuli (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Oruvan Oruvan (முத்து)</p></li>
+          <li><p>Oruthi Maelae (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Oru Vidha Aasai (மாரி)</p></li>
+          <li><p>Osaka Osaka (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Osthe Maamey (Osthe)</p></li>
+          <li><p>Otha Kallu Mookuthi (மகனே நீ வாழ்க)</p></li>
+          <li><p>Oru Vetkam Varudhey (Pasanga)</p></li>
+        </ul>
+      </div>
+
+      <!-- P -->
+      <div class="letter-group" id="letter-p">
+        <div class="letter-heading">
+          <div class="letter-tag">P</div>
+          <span>Songs starting with P</span>
+        </div>
+        <ul class="song-list">
+          <li><p>Pachchai Nirame (அலைபாயுதே)</p></li>
+          <li><p>Podhuvaaga En Manasu Thangam (முரட்டுக்காளை)</p></li>
+          <li><p>Paruvam Enadhu Paadal (ஆயிரத்தில் ஒருவன்)</p></li>
+          <li><p>Poo Mazhai Thoovi (நினைத்ததை முடிப்பவன்)</p></li>
+          <li><p>Ponmaanai Thedi (எங்க ஊரு ராசாத்தி)</p></li>
+          <li><p>Paattu Onnu Pottu (சிம்மாசனம்)</p></li>
+          <li><p>Pattu Vanna Rosavam (கன்னிப் பருவத்திலே)</p></li>
+          <li><p>Poopol Poopol (Minnalae)</p></li>
+          <li><p>Pooparikka Neeyum (Something Something Unakkum Enakkum)</p></li>
+          <li><p>Poovum Kaatrum (குங்குமப் பொட்டுக் கவுண்டர்)</p></li>
+          <li><p>Pirantha Naal (நாம் மூவர்)</p></li>
+          <li><p>Perumthil Nee Enakku (போரி)</p></li>
+          <li><p>Paatu Pada Vaa (Remix)</p></li>
+          <li><p>Paruthi Edukkaiyile (ஆட்டுக்கார அலமேலு)</p></li>
+          <li><p>Pathala Pathala (விக்ரம்)</p></li>
+          <li><p>Pookkalae Sattru Oyivedungal (ஐ)</p></li>
+          <li><p>Poovukkul (ஜீன்ஸ்)</p></li>
+          <li><p>Poraney Poraney (பயலே பயலே)</p></li>
+          <li><p>Puya le Puyale (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Pacha Kiligal (இந்தியன்)</p></li>
+          <li><p>Perai Thedum (மயக்கம் என்ன)</p></li>
+          <li><p>Pollathavan (நான் பொல்லாதவன்)</p></li>
+          <li><p>Poo Nee Poo (3)</p></li>
+          <li><p>Poovae Unnakaga (சொல்லாமலே)</p></li>
+          <li><p>Poove Ilaya Poove (கோழி கூவுது)</p></li>
+          <li><p>Paartha Mudhal (வேட்டையாடு விளையாடு)</p></li>
+          <li><p>Panithuli Panithuli (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Pani illatha margazhi (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Paravayae Engu Irukkiraa (கற்றது தமிழ்)</p></li>
+          <li><p>Pondaati (Osthe)</p></li>
+          <li><p>Ponnezhil Poothathu (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Pon Vandhu Theendumbothu (அலைகள் ஓய்வதில்லை)</p></li>
+          <li><p>Povoma Oorgolam (கிழக்கு வாசல்)</p></li>
+          <li><p>Pesum Urimai Undu (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Pesadha Kannum Pesum (பார்த்தால் பசி தீரும்)</p></li>
+          <li><p>Poguthe Poguthe (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Pottu Vaitha Mugamo (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Pudhu Vellai Mazhai (ரோஜா)</p></li>
+          <li><p>Punnagai Mannan Theme (புன்னகை மன்னன்)</p></li>
+        </ul>
+      </div>
+
+      <!-- Q -->
+      <div class="letter-group" id="letter-q">
+        <div class="letter-heading">
+          <div class="letter-tag">Q</div>
+          <span>Songs starting with Q</span>
+        </div>
+        <ul class="song-list">
+          <li><p>Not Found</p></li>
+        </ul>
+      </div>
+
+      <!-- R -->
+      <div class="letter-group" id="letter-r">
+        <div class="letter-heading">
+          <div class="letter-tag">R</div>
+          <span>Songs starting with R</span>
+        </div>
+        <ul class="song-list">
+          <li><p>Raadha Raadha Nee (மீண்டும் கோகிலா)</p></li>
+          <li><p>Ragangal Padhinaru (தில்லு முல்லு)</p></li>
+          <li><p>Ragangal Padhnaaru (தில்லு முல்லு 2)</p></li>
+          <li><p>Ragasiyamaai (டும் டும் டும்)</p></li>
+          <li><p>Rail Aaraaroo (நெஞ்சில் துணிவிருந்தால்)</p></li>
+          <li><p>Rajaavin Paarvai (அன்பே வா)</p></li>
+          <li><p>Rajaavin Paarvai (Remix)</p></li>
+          <li><p>Rajadhi Raja (நிமிர்ந்து நில்)</p></li>
+          <li><p>Rajamakal (வஞ்சிக்கோட்டை வாலிபன்)</p></li>
+          <li><p>Rakkamma Kaiya Thattu (தளபதி)</p></li>
+          <li><p>Ramanin Mohanam (நெற்றிக்கண்)</p></li>
+          <li><p>Rama Rama (காலட்படை)</p></li>
+          <li><p>Rasiga En Rasiga (ஸ்டார்)</p></li>
+          <li><p>Raathiri Nadu Raathiri (சீறிவரும் காளை)</p></li>
+          <li><p>Ratsasan Piano Theme (ராட்சசன்)</p></li>
+          <li><p>Ratsasan Theme (ராட்சசன்)</p></li>
+          <li><p>Re Re Retaikkili (சீறிவரும் காளை)</p></li>
+          <li><p>Roja Malare (Revival) (வீரத்திருமகன்)</p></li>
+          <li><p>Rowdy Baby (மாரி 2)</p></li>
+        </ul>
+      </div>
+
+      <!-- S -->
+      <div class="letter-group" id="letter-s">
+        <div class="letter-heading">
+          <div class="letter-tag">S</div>
+          <span>Songs starting with S</span>
+        </div>
+        <ul class="song-list">
+          <li><p>Saala Saala (அயன்)</p></li>
+          <li><p>Sach Keh Raha Hai (ரெஹ்னா ஹை தேரே தில் மே - இந்தி)</p></li>
+          <li><p>Sada Sada (உயிரே)</p></li>
+          <li><p>Sakalakala Vallavane (சகலகலா வல்லவன்)</p></li>
+          <li><p>Salamae Ishq Meri Jaan (முகத்தர் கா சிக்கந்தர் - இந்தி)</p></li>
+          <li><p>Salomiya (மிஸ்டர் ரோமியோ)</p></li>
+          <li><p>Samajavaragamana (அல வைகுந்தபுரம்லோ - தெலுங்கு)</p></li>
+          <li><p>Samba Samba (லவ் பேர்ட்ஸ்)</p></li>
+          <li><p>Samikita Solliputen (தாஸ்)</p></li>
+          <li><p>Sangili Bungili (காஞ்சனா)</p></li>
+          <li><p>Sangu Muzhangada (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Sara Sara Saara Kaathu (வாகை சூட வா)</p></li>
+          <li><p>Sathiyama Neeyum Enakku (எனக்கு 20 உனக்கு 18)</p></li>
+          <li><p>Satti Suttathada (ஆலயம் மணி)</p></li>
+          <li><p>Saturday Night Fever (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Semma Mass (சீமராஜா)</p></li>
+          <li><p>Semmozhiye (வல்லக்கோட்டை)</p></li>
+          <li><p>Sendhoora Poove (16 வயதினிலே)</p></li>
+          <li><p>Senthazhampoovil (முள்ளும் மலரும்)</p></li>
+          <li><p>September Madham (அலைபாயுதே)</p></li>
+          <li><p>Shakalakka Baby (முதல்வன்)</p></li>
+          <li><p>Shiva Vechitanda Kaala (மொட்ட சிவா கெட்ட சிவா)</p></li>
+          <li><p>Silu Silu (கோவில்)</p></li>
+          <li><p>Simtaangaran (சர்கார்)</p></li>
+          <li><p>Sinna Chinna Kannil Vanthu</p></li>
+          <li><p>Sinnanchiru Ooru</p></li>
+          <li><p>Siraichalai (சிறைச்சாலை - தலைப்பு பாடல்)</p></li>
+          <li><p>Siva Sankara (ராஜா தர்பார் - இந்தி)</p></li>
+          <li><p>Snehidhane (அலைபாயுதே)</p></li>
+          <li><p>Soi Soi (கும்கி)</p></li>
+          <li><p>Sollitaley Ava Kadhala (கும்கி)</p></li>
+          <li><p>Sondham Eppodhum (பிராப்தம்)</p></li>
+          <li><p>Soodu Soranai</p></li>
+          <li><p>Sugar Baby (தக் லைஃப் - விரைவில் வெளிவரவுள்ளது)</p></li>
+          <li><p>Sundari Kannaal Oru Sethi (தளபதி)</p></li>
+          <li><p>Swasamae (தெனாலி)</p></li>
+        </ul>
+      </div>
+
+      <!-- T -->
+      <div class="letter-group" id="letter-t">
+        <div class="letter-heading">
+          <div class="letter-tag">T</div>
+          <span>Songs starting with T</span>
+        </div>
+        <ul class="song-list">
+          <li><p>Ta Takkara (Kalki 2898 AD)</p></li>
+          <li><p>Take It Easy - Tamil (JioSaavn Playlist)</p></li>
+          <li><p>Thalapathy Kacheri (Jana Nayagan)</p></li>
+          <li><p>Thalli Pogathey (Achcham Yenbadhu Madamaiyada)</p></li>
+          <li><p>Thangapathakathin Mele (Vetrivel Sakthivel)</p></li>
+          <li><p>Thanga Changili (Thooral Ninnu Pochu)</p></li>
+          <li><p>Thamizhukkum Amuthendru Per (Panchavarna Kili)</p></li>
+          <li><p>Thanjai Periya Koil (Raja Raja Cholan)</p></li>
+          <li><p>Theekkoluthi (Bison Kaalamadan)</p></li>
+          <li><p>Theme Music - Love (Abhiyum Anuvum)</p></li>
+          <li><p>Thendral Urangiya Pothum (Petramaganai Vitra Annai)</p></li>
+          <li><p>Thenmozhi (Thenmozhi - Kaayal)</p></li>
+          <li><p>Tholvi Nilaiyena (Oomai Vizhigal)</p></li>
+          <li><p>Thuliuvatho Ilamai (Kudiyirundha Koil)</p></li>
+          <li><p>Thulluvatho Ilamai (Remix) (Raajavin Paarvai Dance Mix)</p></li>
+          <li><p>Thasakku Thasaku (Vikram Vedha)</p></li>
+          <li><p>Thaaliyae Thevaiyillai (Thaamirabharani)</p></li>
+          <li><p>Telephone Mani Pol (Indian)</p></li>
+          <li><p>Thirudiya Idhayathai (Paarvai Ondre Podhume)</p></li>
+          <li><p>Thirumba Thirumba Paathu (Kalakalappu)</p></li>
+          <li><p>Thoda Thoda (Indira)</p></li>
+          <li><p>Totti Jaya (Uyire En Uyire)</p></li>
+          <li><p>Tozha Thozha (Pandavar Bhoomi)</p></li>
+          <li><p>Thuli Thuli (Paiyaa)</p></li>
+          <li><p>Thandora Kannaala (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Taxi Taxi (Nanban)</p></li>
+          <li><p>Thendral Vandhu Theendum Pothu (Avatharam)</p></li>
+          <li><p>Tenali Raman (Thenali)</p></li>
+          <li><p>Thinamthorum Unnai (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Thunbam Illatha Nilaiye (வசந்த மாளிகை)</p></li>
+          <li><p>Thenpandi Cheemayile (நாயகன்)</p></li>
+          <li><p>This Is The End (மயக்கம் என்ன)</p></li>
+          <li><p>The Life Of Ram (96)</p></li>
+        </ul>
+      </div>
+
+      <!-- U -->
+      <div class="letter-group" id="letter-u">
+        <div class="letter-heading">
+          <div class="letter-tag">U</div>
+          <span>Songs starting with U</span>
+        </div>
+        <ul class="song-list">
+          <li><p>Ulagam Pirandhadhu Enakkaga (பாசம்)</p></li>
+          <li><p>Ulagam Ulagam Sudugirathu (எச்சரிக்கை இது மனிதர்கள் வாழும் இடம்)</p></li>
+          <li><p>Unakenna Ippothu (சிங்கம் 2)</p></li>
+          <li><p>Unakkena Naan (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Un Samayal Arayil (உன் சமையல் அறையில்)</p></li>
+          <li><p>Un Paarvaiyil (Un Paarvaiyil)</p></li>
+          <li><p>Uruguthe Maruguthe (வெண்ணிலா கபடி குழு)</p></li>
+          <li><p>Uyire Uyire (பம்பாய்)</p></li>
+          <li><p>Uyire Uyire (Remix)</p></li>
+          <li><p>Uyirile Uyirile (மஜ்னு)</p></li>
+          <li><p>Uyirum Neeye (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Ullam Kollai Pogudhada (உள்ளம் கொள்ளை போகுதே)</p></li>
+          <li><p>Ullam Uruguthaiyaa Muruga (பக்தி பாடல்)</p></li>
+          <li><p>Ulla Kallooriyilae (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Unnai Enni Enni (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Unna Vida (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Un Mela Aasaidhan (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Un Mael Vizhuntha (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Unnai Kanda Naal Mudhal (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Unnai Ondru Ketpen (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Unnai Suthi (தெளிவான குறிப்பு இல்லை)</p></li>
+        </ul>
+      </div>
+
+      <!-- V -->
+      <div class="letter-group" id="letter-v">
+        <div class="letter-heading">
+          <div class="letter-tag">V</div>
+          <span>Songs starting with V</span>
+        </div>
+        <ul class="song-list">
+          <li><p>Vaa Kalvaari Mettandai (கிறிஸ்தவ பாடல்)</p></li>
+          <li><p>Vaa Endrazhaikkum Dheiva Satham (கிறிஸ்தவ பாடல்)</p></li>
+          <li><p>Vaa Pon Mayile (பூந்தளிர்)</p></li>
+          <li><p>Vaa Vaathi (SIR)</p></li>
+          <li><p>Vada Machan (மைனஸ் 1 பதிப்பு)</p></li>
+          <li><p>Vadakkan Katre (வர்த்தகப் பாடல்)</p></li>
+          <li><p>Vaigasi Nilave (உன்னாலே உன்னாலே)</p></li>
+          <li><p>Vaan Nila Nila (பட்டினப் பிரவேசம்)</p></li>
+          <li><p>Vaanuyarntha Kaattidaiye (நாட்டுப்புறப் பாடல்)</p></li>
+          <li><p>Vaartha Onnu X Thaaliye Thevai Illa - Mashup</p></li>
+          <li><p>Vaseegara (மின்னலே)</p></li>
+          <li><p>Vaazhum Varai (பாடும் வானம்பாடி)</p></li>
+          <li><p>Vande Mataram (அச்சமில்லை)</p></li>
+          <li><p>Vaseegara (மின்னலே)</p></li>
+          <li><p>Veerapandi Kottaiyile (திருடா திருடா)</p></li>
+          <li><p>Velli Nila Vilakkettrum (பழைய பாடல்)</p></li>
+          <li><p>Velli Nilave (நந்தவனத் தெரு)</p></li>
+          <li><p>Venmathiye (மின்னலே)</p></li>
+          <li><p>Vennilave Vennilave (அன்னை / மின்சார கனவு)</p></li>
+          <li><p>Vennilavu Saaral (அமரன்)</p></li>
+          <li><p>Verenna (இவன் யாரோ) (மின்னலே)</p></li>
+          <li><p>Vetri Meethu Vetri Vandhu (தேடி வந்த மாப்பிள்ளை)</p></li>
+          <li><p>Vetriyai Naalai (உலகம் சுற்றும் வாலிபன்)</p></li>
+          <li><p>Vettaiyadu Koottam (சண்டியர்)</p></li>
+          <li><p>Vethala Potta Sokkula (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Veyilodu Vilayadi (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Vidaikodu Vidaikodu (பிரியாத வரம் வேண்டும்)</p></li>
+          <li><p>Violin Medley (ராஜா பார்வை)</p></li>
+          <li><p>Vizhigalil Vizhigalil (திருவிளையாடல் ஆரம்பம்)</p></li>
+          <li><p>Vizhiyil Un Vizhiyil (தெளிவான குறிப்பு இல்லை)</p></li>
+        </ul>
+      </div>
+
+      <!-- W -->
+      <div class="letter-group" id="letter-w">
+        <div class="letter-heading">
+          <div class="letter-tag">W</div>
+          <span>Songs starting with W</span>
+        </div>
+        <ul class="song-list">
+          <li><p>Not found</p></li>
+        </ul>
+      </div>
+
+      <!-- X -->
+      <div class="letter-group" id="letter-x">
+        <div class="letter-heading">
+          <div class="letter-tag">X</div>
+          <span>Songs starting with X</span>
+        </div>
+        <ul class="song-list">
+          <li><p>Not found</p></li>
+        </ul>
+      </div>
+
+      <!-- Y -->
+      <div class="letter-group" id="letter-y">
+        <div class="letter-heading">
+          <div class="letter-tag">Y</div>
+          <span>Songs starting with Y</span>
+        </div>
+        <ul class="song-list">
+          <li><p>Yaaru Yaaru Ingu Yaaru (காதலன்)</p></li>
+          <li><p>Yaaro Yaaro Aval (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Yamma Yamma (7 ஆம் அறிவு)</p></li>
+          <li><p>Yaro Ival Yaaro (அக்டோபர் மாதம்)</p></li>
+          <li><p>Yaro Yarukkul (அலைபாயுதே)</p></li>
+          <li><p>Yaradi Nee Mohini (திருவிளையாடல் ஆரம்பம்)</p></li>
+          <li><p>Yar Ennai Kadhalikka (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Yedho Mayakam (கோவா)</p></li>
+          <li><p>Yeh Duniya Yeh Mehfil (இந்தி பாடல்)</p></li>
+          <li><p>Yeh Jo Mohabbat Hai (இந்தி பாடல்)</p></li>
+          <li><p>Yei Raja (தெளிவான குறிப்பு இல்லை)</p></li>
+          <li><p>Yennai Arindhaal Theme (என்னை அறிந்தால்)</p></li>
+          <li><p>Yennai Kollathey (கீதா கோவிந்தம் - தெலுங்கு டப்பிங்)</p></li>
+          <li><p>Yen Uyir Kaadhalae (Yen Uyir Kaadhalae)</p></li>
+          <li><p>Yetho Oru Paattu (உன்னிடத்தில் என்னை கொடுத்தேன்)</p></li>
+          <li><p>Yogi Yogi (Yogi)</p></li>
+          <li><p>You Are My Darling (You Are My Darling - Single)</p></li>
+        </ul>
+      </div>
+
+      <!-- Z -->
+      <div class="letter-group" id="letter-z">
+        <div class="letter-heading">
+          <div class="letter-tag">Z</div>
+          <span>Songs starting with Z</span>
+        </div>
+        <ul class="song-list">
+          <li><p>Not found</p></li>
+        </ul>
+      </div>
+    </section>
+    
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const allLis = Array.from(document.querySelectorAll(".song-list li"));
+  const searchInput = document.getElementById("songSearch");
+  const suggestionBox = document.getElementById("searchSuggestions");
+  const letterGroups = Array.from(document.querySelectorAll(".letter-group"));
+  const alphaLinks = Array.from(document.querySelectorAll(".alpha-index a"));
+  const modeToggle = document.getElementById("modeToggle");
+  const body = document.body;
+
+  /* THEME TOGGLE */
+  const savedTheme = localStorage.getItem("theme");
+  if (savedTheme === "light") {
+    body.classList.add("light-mode");
+    if (modeToggle) modeToggle.textContent = "☀";
+  }
+
+  if (modeToggle) {
+    modeToggle.addEventListener("click", () => {
+      body.classList.toggle("light-mode");
+      const isLight = body.classList.contains("light-mode");
+      modeToggle.textContent = isLight ? "☀" : "☾";
+      localStorage.setItem("theme", isLight ? "light" : "dark");
+    });
+  }
+
+  /* 1) REMOVE TEXT IN BRACKETS FROM SONGS */
+  allLis.forEach(li => {
+    li.textContent = li.textContent.replace(/\(.*?\)/g, "").trim();
+  });
+
+  /* 2) REBUILD LI: SONG TEXT + COPY BUTTON */
+  allLis.forEach((li, index) => {
+    const text = li.textContent.trim();
+    li.innerHTML = `
+      <span class="song-text">${text}</span>
+      <button class="copy-btn" data-index="${index}">Copy</button>
+    `;
+  });
+
+  /* 3) COPY BUTTON LOGIC */
+  document.addEventListener("click", e => {
+    if (!e.target.classList.contains("copy-btn")) return;
+
+    const span = e.target.parentElement.querySelector(".song-text");
+    if (!span) return;
+
+    const txt = span.innerText;
+    navigator.clipboard.writeText(txt).then(() => {
+      e.target.innerText = "Copied!";
+      e.target.style.background = "#22c55e";
+      e.target.style.color = "#000";
+
+      setTimeout(() => {
+        e.target.innerText = "Copy";
+        e.target.style.background = "transparent";
+        e.target.style.color = "#22c55e";
+      }, 1200);
+    });
+  });
+
+  /* 4) COLLAPSIBLE LETTER GROUPS */
+  letterGroups.forEach(group => {
+    const heading = group.querySelector(".letter-heading");
+    if (!heading) return;
+
+    heading.addEventListener("click", () => {
+      group.classList.toggle("collapsed");
+    });
+  });
+
+  /* 5) A–Z BUTTONS: SHOW ONLY THAT LETTER */
+  alphaLinks.forEach(link => {
+    link.addEventListener("click", e => {
+      e.preventDefault();
+
+      // glow on clicked btn
+      alphaLinks.forEach(l => l.classList.remove("clicked"));
+      link.classList.add("clicked");
+
+      const id = link.getAttribute("href").substring(1);
+      const target = document.getElementById(id);
+      if (!target) return;
+
+      letterGroups.forEach(group => {
+        group.style.display = group.id === id ? "" : "none";
+      });
+    });
+  });
+
+  /* 6) SEARCH TYPE B: ONLY DROPDOWN, DON'T HIDE SONGS */
+  if (searchInput && suggestionBox) {
+    // prepare clean song text list
+    const songsData = allLis.map((li, index) => {
+      const span = li.querySelector(".song-text");
+      return {
+        index,
+        text: span ? span.innerText : li.innerText
+      };
+    });
+
+    function clearSuggestions() {
+      suggestionBox.innerHTML = "";
+      suggestionBox.classList.remove("visible");
+    }
+
+    function updateSearch() {
+      const q = searchInput.value.trim().toLowerCase();
+      clearSuggestions();
+      if (q === "") return;
+
+      const matches = songsData
+        .filter(item => item.text.toLowerCase().includes(q))
+        .slice(0, 10); // top 10 only
+
+      if (matches.length === 0) return;
+
+      matches.forEach(m => {
+        const div = document.createElement("div");
+        div.className = "suggestion-item";
+        div.textContent = m.text;
+        div.dataset.index = m.index;
+        suggestionBox.appendChild(div);
+      });
+
+      suggestionBox.classList.add("visible");
+    }
+
+    searchInput.addEventListener("input", updateSearch);
+
+    // click suggestion → scroll to song
+    suggestionBox.addEventListener("click", e => {
+  const item = e.target.closest(".suggestion-item");
+  if (!item) return;
+
+  const idx = Number(item.dataset.index);
+  const li = allLis[idx];
+  if (!li) return;
+
+  letterGroups.forEach(g => g.style.display = "");
+
+  const headerOffset = 140;
+  const elementTop = li.getBoundingClientRect().top + window.scrollY;
+  const targetY = elementTop - headerOffset;
+
+  window.scrollTo({
+    top: targetY,
+    behavior: "smooth"
+  });
+
+  li.classList.add("song-pop");
+
+setTimeout(() => {
+  li.classList.remove("song-pop");
+}, 3000); // stays highlighted for 3 seconds
+
+  clearSuggestions();
+});
+
+
+    // click outside → hide suggestions
+    document.addEventListener("click", e => {
+      if (!e.target.closest(".search-container")) {
+        clearSuggestions();
+      }
+    });
+  }
+
+  /* 7) LOADER HIDE WHEN PAGE READY */
+  window.addEventListener("load", () => {
+    const overlay = document.getElementById("loader-overlay");
+    if (overlay) {
+      overlay.classList.add("hidden");
+      setTimeout(() => {
+        overlay.style.display = "none";
+      }, 450);
+    }
+  });
+
+  /* 8) A–Z BUTTON CLICK ANIMATION RESET */
+  document.querySelectorAll(".alpha-index a").forEach(btn => {
+    btn.addEventListener("click", () => {
+      btn.classList.remove("clicked");
+      void btn.offsetWidth; // force reflow
+      btn.classList.add("clicked");
+    });
+  });
+});
+</script>
+
+<script>
+document.getElementById("topBtn").addEventListener("click", function() {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+});
+</script>
+<div class="three">
+    
+<div class="one">
+    <img src="toppng.com-aruto-rock-lee-png-clip-royalty-free-rock-lee-naruto-427x559.png" width="75px">
+    </div>
+    <div class="two">
+       <h5>A SANJ PRODUCT</h5>
+        </div>
+    </div>
+<footer>
+    
+  <div class="footer-inner">
+    <div class="footer-row">
+      <a class="footer-link" href="#home">Home</a>
+      <p> | </p>
+      <a class="footer-link" href="#songs">A–Z Songs</a>
+    </div>
+
+    <p class="footer-credit">Made with ❤️ by SANJAY </p>
+  </div>
+</footer>
+
+</body>
+</html>
